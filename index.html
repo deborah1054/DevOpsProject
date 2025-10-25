@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <style>
+        /* This is simple styling. We can make it better later. */
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        nav { margin-bottom: 20px; }
+        nav a { margin-right: 15px; font-size: 18px; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+    </nav>
+
+    <!-- This 'greeting' variable will come from your Python file -->
+    <h1>{{ greeting }}, World! 🚀</h1>
+    <p>This application was deployed by Jenkins and Terraform.</p>
+</body>
+</html>
